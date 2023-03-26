@@ -1,0 +1,35 @@
+:root {
+    --text-color1: #212121;
+    --text-color2: #757575;
+    --background-color: #e5e5e5;
+}
+.button:hover {
+    background-color: #9ea1a3;
+}
+.button:focus {
+    background-color: #5ce6eb;
+}
+.button:active {
+    background-color: #2196f3;
+}
+.link {
+    color: var(--text-color1);
+    text-decoration: none;
+}
+.link:hover {
+    background-color: #9ea1a3;
+}
+.link:focus {
+    background-color: #5ce6eb;
+}
+.link:active {
+    background-color: #2196f3;
+}
+.product-name {
+    color: var(--text-color1);
+    font-size: 18px;
+}
+.product-description {
+    color: var(--text-color2);
+    font-size: 16px;
+}
