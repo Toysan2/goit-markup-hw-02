@@ -1,35 +1,61 @@
 :root {
     --text-color1: #212121;
     --text-color2: #757575;
-    --background-color: #e5e5e5;
+    --background-color1: #9ea1a3;
+    --background-color2: #5ce6eb;
+    --background-color3: #2196f3;
+    --font-size1: 14px;
+    --font-size2: 16px;
+    --font-size3: 18px;
+    --font-size4: 26px;
+}
+.logo {
+    font-family: 'Raleway';
+    font-size: var(--font-size4);
+    line-height: 31px;
+    font-weight: 700;
+}
+.address {
+    font-size: var(--font-size1);
+    line-height: 16px;
+    font-weight: 500;
+}
+.button {
+    cursor: pointer;
+    font-size: var(--font-size1);
+    line-height: 26px;
+    font-weight: 500;
 }
 .button:hover {
-    background-color: #9ea1a3;
+    background-color: var(--background-color1);
 }
 .button:focus {
-    background-color: #5ce6eb;
+    background-color: var(--background-color2);
 }
 .button:active {
-    background-color: #2196f3;
+    background-color: var(--background-color3);
 }
 .link {
     color: var(--text-color1);
     text-decoration: none;
 }
 .link:hover {
-    background-color: #9ea1a3;
+    background-color: var(--background-color1);
 }
 .link:focus {
-    background-color: #5ce6eb;
+    background-color: var(--background-color2);
 }
 .link:active {
-    background-color: #2196f3;
+    background-color: var(--background-color3);
 }
 .product-name {
     color: var(--text-color1);
-    font-size: 18px;
+    font-size: var(--font-size2);
+    line-height: 36px;
+    font-weight: 700;
 }
 .product-description {
     color: var(--text-color2);
-    font-size: 16px;
+    font-size: var(--font-size2);
+    line-height: 30px;
 }
