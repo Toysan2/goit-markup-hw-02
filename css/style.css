@@ -3,46 +3,73 @@
     --text-color2: #757575;
     --text-color3: #ffffff;
     --text-color4: #2196f3;
-    --background-color1: #f5f4fa;
+    --text-color5: rgba(255, 255, 255, 0.6);
+    --background-color1: #e5e5e5;
     --background-color2: #2196f3;
     --background-color3: #2f303a;
+    --background-color4: #f5f4fa;
 }
-.logo {
+.backgroud-black {
+    background-color: var(--background-color3);
+}
+.background-white {
+    background-color: var(--background-color1);
+}
+.background-grey {
+    background-color: var(--background-color4);
+}
+.logo-blue {
+    font-family: 'Raleway';
+    color: var(--text-color4);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.logo-white {
+    font-family: 'Raleway';
+    color: var(--text-color3);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.logo-black {
     font-family: 'Raleway';
     color: var(--text-color1);
     text-decoration: none;
     font-size: 26px;
     line-height: 31px;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 .header-font {
+    text-decoration: none;
     color: var(--text-color2);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-/*Tylko numer telefonu nie miał innego stylowania niż reszta elementów footer'a.
-Dodatkowo napisałeś mi, że mam nanieść styl css również na index.html co powoduje, że z automatu punkt B12 staje się sprzeczny z logiką.
-Footery w figmie różnią się stylowaniem css, który odnosi się do hovera oraz text-decoration emaila, ta różnica sprawiła mi mindf*
-na 20 min zanim pojąłem, że to błąd po waszej stronie*/
 .footer-font {
+    font-style: normal;
     text-decoration: none;
-    color: var(--text-color2);
+    color: var(--text-color5);
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
 }
 .address {
     color: var(--text-color3);
-    background-color: var(--background-color3);
     text-decoration: none;
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
 }
 .footer-email {
-    color: var(--text-color2);
+    color: var(--text-color5);
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
@@ -88,12 +115,13 @@ na 20 min zanim pojąłem, że to błąd po waszej stronie*/
     text-decoration: none;
 }
 .link:hover {
+    color: var(--text-color4);
 }
 .link:focus {
-    background-color: var(--background-color1);
+    color: var(--text-color4);
 }
 .link:active {
-    background-color: var(--background-color2);
+    color: var(--text-color4);
 }
 .article-headline {
     color: var(--text-color1);
@@ -133,7 +161,6 @@ na 20 min zanim pojąłem, że to błąd po waszej stronie*/
 }
 .hero {
     color: var(--text-color3);
-    background-color: var(--background-color3);
     font-weight: 900;
     font-size: 44px;
     line-height: 136%;
