@@ -99,7 +99,8 @@
 }
 .button:hover,
 .button-hero {
-    background-color: var(--background-color1);
+    background-color: var(--background-color2);
+    color: var(--text-color3);
 }
 .button:focus,
 .button-hero {
