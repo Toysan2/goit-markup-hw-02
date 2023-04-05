@@ -76,11 +76,20 @@
 }
 .footer-email:hover {
     background-color: var(--background-color1);
+    color: var(--text-color4);
 }
+
 .footer-email:focus {
     background-color: var(--background-color1);
+    color: var(--text-color4);
+}
+
+.footer-email:active {
+    background-color: var(--background-color1);
+    color: var(--text-color4);
 }
 .button-hero {
+    font-family: 'Roboto';
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -91,7 +100,8 @@
     letter-spacing: 0.06em;
 }
 .button {
-    background-color: var(--background-color1);
+    font-family: 'Roboto';
+    background-color: var(--background-color4);
     cursor: pointer;
     font-size: 16px;
     line-height: 162%;
@@ -115,13 +125,19 @@
     color: var(--text-color1);
     text-decoration: none;
 }
-.link:hover {
+.link:hover,
+.header-font:hover,
+.footer-font:hover {
     color: var(--text-color4);
 }
-.link:focus {
+.link:focus,
+.header-font:focus,
+.footer-font:focus {
     color: var(--text-color4);
 }
-.link:active {
+.link:active,
+.header-font:active,
+.footer-font:active {
     color: var(--text-color4);
 }
 .article-headline {
@@ -153,12 +169,12 @@
     color: var(--text-color1);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1875;
 }
 .employ-description {
     color: var(--text-color2);
-    font-size: 171%;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 1.1875;
 }
 .hero {
     color: var(--text-color3);
