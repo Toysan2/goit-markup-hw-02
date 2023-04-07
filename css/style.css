@@ -23,77 +23,38 @@
     color: var(--text-color4);
     text-decoration: none;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     font-weight: 700;
     letter-spacing: 0.03em;
 }
 .logo-white {
-    font-family: 'Raleway';
     color: var(--text-color3);
-    text-decoration: none;
-    font-size: 26px;
-    line-height: 31px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
 }
 .logo-black {
-    font-family: 'Raleway';
     color: var(--text-color1);
-    text-decoration: none;
-    font-size: 26px;
-    line-height: 31px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
 }
-.header-font {
+.head-foot-font {
+    font-style: normal;
     text-decoration: none;
     color: var(--text-color2);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-}
-.footer-font {
-    font-style: normal;
-    text-decoration: none;
-    color: var(--text-color5);
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
 }
 .address {
     color: var(--text-color3);
     text-decoration: none;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-}
-.footer-email {
-    color: var(--text-color5);
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-}
-.footer-email:hover {
-    background-color: var(--background-color1);
-    color: var(--text-color4);
-}
-
-.footer-email:focus {
-    background-color: var(--background-color1);
-    color: var(--text-color4);
-}
-
-.footer-email:active {
-    background-color: var(--background-color1);
-    color: var(--text-color4);
 }
 .button-hero {
     font-family: 'Roboto';
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
-    line-height: 188%;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -104,7 +65,7 @@
     background-color: var(--background-color4);
     cursor: pointer;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     font-weight: 500;
 }
 .button:hover,
@@ -117,53 +78,44 @@
     background-color: var(--background-color2);
     color: var(--text-color3);
 }
-.button:active,
-.button-hero {
-    background-color: var(--background-color2);
-}
+
 .link {
     color: var(--text-color1);
     text-decoration: none;
 }
 .link:hover,
-.header-font:hover,
-.footer-font:hover {
+.head-foot-font:hover {
     color: var(--text-color4);
 }
 .link:focus,
-.header-font:focus,
-.footer-font:focus {
+.head-foot-font:focus {
     color: var(--text-color4);
 }
-.link:active,
-.header-font:active,
-.footer-font:active {
-    color: var(--text-color4);
-}
+
 .article-headline {
     color: var(--text-color1);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .article-text {
     color: var(--text-color2);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .product-name {
     color: var(--text-color1);
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     font-weight: 700;
 }
 .product-description {
     color: var(--text-color2);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
 }
 .employ-name {
     color: var(--text-color1);
@@ -180,14 +132,14 @@
     color: var(--text-color3);
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 .separator-font {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1, 17;
     letter-spacing: 0.03em;
 }
 .active-page {
